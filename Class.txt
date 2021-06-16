@@ -1,0 +1,24 @@
+class musicPlayer {
+	char username. password, songName;	
+
+	Login() {
+		cin >> username;
+		cin >> password;
+	}
+
+	searchSong() {
+		cin >> songName;
+	}
+
+	playSong() {
+		cout << "Song is being played";
+	}
+
+	downloadSong(songName) {
+		cout << "Song is being downloaded";
+	}
+
+	likeSong(songName) {
+		cout << "Song added to default library";
+	}
+}
